@@ -71,7 +71,7 @@ export default function Home() {
                 <StepGuide project={selectedProject} skillLevel={skillLevel} />
 
                 {/* Export Options */}
-                <ExportOptions project={selectedProject} />
+                <ExportOptions project={selectedProject} skillLevel={skillLevel} />
 
                 {/* Recommendations */}
                 <div className="rounded-lg border border-primary/20 bg-primary/5 p-6">
